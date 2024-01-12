@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n1,n2,n3,n4,n5,om;
+	float per;
+	printf("Enter Obtain marks in Physics=");
+	scanf("%d",&n1);
+	printf("Enter Obtain marks in Chemistry=");
+	scanf("%d",&n2);
+	printf("Enter Obtain marks in Math=");
+	scanf("%d",&n3);
+	printf("Enter Obtain marks in Hindi=");
+	scanf("%d",&n4);
+	printf("Enter Obtain marks in English=");
+	scanf("%d",&n5);
+	om=n1+n2+n3+n4+n5; 
+	per=om*100/500;
+	if(n1<100&&n2<100&&n3<100&&n4<100&&n5<100)
+   	 {
+	    printf("====================================\n");
+	    printf("Subject\t\t\t\tMarks\n");
+    	printf("Physics\t\t\t\t %d\n",n1);
+    	printf("Chemistry\t\t\t %d\n",n2);
+    	printf("Math\t\t\t\t %d\n",n3);
+    	printf("Hindi\t\t\t\t %d\n",n4);
+    	printf("English\t\t\t\t %d \n",n5);
+    	printf("------------------------------------\n");
+    	printf("Total Marks \t\t\t%d\n",om);
+    	printf("------------------------------------\n");
+    	printf("Total Percentage\t\t%.2f",per);
+    	}
+	else
+	{
+		printf("Please give correct obtain marks");
+	}
+    return 0;
+}
