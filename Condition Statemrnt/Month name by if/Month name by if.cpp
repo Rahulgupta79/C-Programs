@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("Enter number=");
+	scanf("%d",&num);
+	if(num==1)
+	{
+		printf("January");
+	}
+	if(num==2)
+	{
+		printf("Februaury");
+	}
+	if(num==3)
+	{
+		printf("March");
+	}
+	if(num==4)
+	{
+		printf("April");
+	}
+	if(num==5)
+	{
+		printf("May");
+	}
+	if(num==6)
+	{
+		printf("June");
+	}
+	if(num==7)
+	{
+		printf("July");
+	}
+	if(num==8)
+	{
+		printf("August");
+	}
+		if(num==9)
+	{
+		printf("September");
+	}
+		if(num==10)
+	{
+		printf("October");
+	}
+		if(num==11)
+	{
+		printf("November");
+	}
+		if(num==12)
+	{
+		printf("December");
+	}
+	return 0;
+}
